@@ -5,7 +5,7 @@ import { Model } from 'mongoose';
 import { CreateUserDto } from './dto/create-user.dto';
 import { BadRequestException , NotFoundException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
-import { ResponseHelper } from "src/common/helpers/response.helper";
+import { ResponseHelper } from "../../common/helpers/response.helper";
 import { SearchUserDto } from './dto/search-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 
